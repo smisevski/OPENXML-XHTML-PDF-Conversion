@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "dgSpecHash": "JQR52O0lmhONP8oH89gUz36rCjHxZyPrsIASaWb2aenBWfEE34VygiVx2BIVQyGJ8zPv215jOQO2i+Ely7w8Eg==",
+  "success": true,
+  "projectFilePath": "/var/www/dotnet/OPENXML-XHTML-PDF-Conversion/OPENXML-XHTML-PDF-Conversion.csproj",
+  "expectedPackageFiles": [
+    "/home/smisevski/.nuget/packages/documentformat.openxml/2.11.3/documentformat.openxml.2.11.3.nupkg.sha512",
+    "/home/smisevski/.nuget/packages/itextsharp/5.5.13.1/itextsharp.5.5.13.1.nupkg.sha512",
+    "/home/smisevski/.nuget/packages/itextsharp.xmlworker/5.5.13.1/itextsharp.xmlworker.5.5.13.1.nupkg.sha512",
+    "/home/smisevski/.nuget/packages/microsoft.netcore.platforms/2.0.0/microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "/home/smisevski/.nuget/packages/microsoft.win32.systemevents/4.5.0/microsoft.win32.systemevents.4.5.0.nupkg.sha512",
+    "/home/smisevski/.nuget/packages/open-xml-powertools/4.4.0/open-xml-powertools.4.4.0.nupkg.sha512",
+    "/home/smisevski/.nuget/packages/system.drawing.common/4.5.0/system.drawing.common.4.5.0.nupkg.sha512",
+    "/home/smisevski/.nuget/packages/system.io.packaging/4.7.0/system.io.packaging.4.7.0.nupkg.sha512",
+    "/home/smisevski/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/home/smisevski/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.3/microsoft.aspnetcore.app.ref.3.1.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'iTextSharp 5.5.13.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "iTextSharp",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'itextsharp.xmlworker 5.5.13.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "itextsharp.xmlworker",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
