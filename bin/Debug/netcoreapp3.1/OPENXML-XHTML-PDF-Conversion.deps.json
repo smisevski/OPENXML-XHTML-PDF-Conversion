@@ -1,0 +1,245 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "OPENXML-XHTML-PDF-Conversion/1.0.0": {
+        "dependencies": {
+          "DocumentFormat.OpenXml": "2.11.3",
+          "Open-Xml-PowerTools": "4.4.0",
+          "PDFsharp-MigraDoc": "1.50.5147",
+          "PDFsharp": "1.50.5147",
+          "System.Drawing.Common": "4.7.0",
+          "iTextSharp": "5.5.13.1",
+          "itextsharp.xmlworker": "5.5.13.1"
+        },
+        "runtime": {
+          "OPENXML-XHTML-PDF-Conversion.dll": {}
+        }
+      },
+      "DocumentFormat.OpenXml/2.11.3": {
+        "dependencies": {
+          "System.IO.Packaging": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {
+            "assemblyVersion": "2.11.3.0",
+            "fileVersion": "2.11.3.0"
+          }
+        }
+      },
+      "iTextSharp/5.5.13.1": {
+        "runtime": {
+          "lib/itextsharp.dll": {
+            "assemblyVersion": "5.5.13.1",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "itextsharp.xmlworker/5.5.13.1": {
+        "dependencies": {
+          "iTextSharp": "5.5.13.1"
+        },
+        "runtime": {
+          "lib/itextsharp.xmlworker.dll": {
+            "assemblyVersion": "5.5.13.1",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {},
+      "Microsoft.Win32.SystemEvents/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "Open-Xml-PowerTools/4.4.0": {
+        "dependencies": {
+          "DocumentFormat.OpenXml": "2.11.3",
+          "System.Drawing.Common": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/OpenXmlPowerTools.dll": {
+            "assemblyVersion": "4.4.0.0",
+            "fileVersion": "4.4.0.0"
+          }
+        }
+      },
+      "PDFsharp/1.50.5147": {
+        "runtime": {
+          "lib/net20/PdfSharp.Charting.dll": {
+            "assemblyVersion": "1.50.5147.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/net20/PdfSharp.dll": {
+            "assemblyVersion": "1.50.5147.0",
+            "fileVersion": "0.0.0.0"
+          }
+        },
+        "resources": {
+          "lib/net20/de/PdfSharp.Charting.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net20/de/PdfSharp.resources.dll": {
+            "locale": "de"
+          }
+        }
+      },
+      "PDFsharp-MigraDoc/1.50.5147": {
+        "runtime": {
+          "lib/net20/MigraDoc.DocumentObjectModel.dll": {
+            "assemblyVersion": "1.50.5147.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/net20/MigraDoc.Rendering.dll": {
+            "assemblyVersion": "1.50.5147.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/net20/MigraDoc.RtfRendering.dll": {
+            "assemblyVersion": "1.50.5147.0",
+            "fileVersion": "0.0.0.0"
+          }
+        },
+        "resources": {
+          "lib/net20/de/MigraDoc.DocumentObjectModel.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net20/de/MigraDoc.Rendering.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net20/de/MigraDoc.RtfRendering.resources.dll": {
+            "locale": "de"
+          }
+        }
+      },
+      "System.Drawing.Common/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "Microsoft.Win32.SystemEvents": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.6.26919.2"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "System.IO.Packaging/4.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.IO.Packaging.dll": {
+            "assemblyVersion": "4.0.5.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OPENXML-XHTML-PDF-Conversion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DocumentFormat.OpenXml/2.11.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dCugN386ka+LwcOHnxi4gUHbiDeIw0/GEYw1sXFhYiErGFbJpRpscRcn5b12dywUReFCOgGNJ/l16zG5udkC/A==",
+      "path": "documentformat.openxml/2.11.3",
+      "hashPath": "documentformat.openxml.2.11.3.nupkg.sha512"
+    },
+    "iTextSharp/5.5.13.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xqzsYEYW/nMDjCtAXM5cl9fWil/Ju3HEGbsmoTKtltJc3M/9HNJzg++bCIOHm5uZITvRmZJWMO+S2u1yNG0gQg==",
+      "path": "itextsharp/5.5.13.1",
+      "hashPath": "itextsharp.5.5.13.1.nupkg.sha512"
+    },
+    "itextsharp.xmlworker/5.5.13.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uGxlL39YGVgFuBOdw1WmGs5j4JxDeSG2QNLqBS1CG+q/57suw6fUFQGbwccIpUbQz1Y3FAO6NjkWgaS6QAswzw==",
+      "path": "itextsharp.xmlworker/5.5.13.1",
+      "hashPath": "itextsharp.xmlworker.5.5.13.1.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
+      "path": "microsoft.win32.systemevents/4.7.0",
+      "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+    },
+    "Open-Xml-PowerTools/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zdxzqgaByTx4UJpxA+SfLW4YpZwDkmPy9Vw2r+Y3RQQh0roRDyygvcalZR5C66kiRhpkbGV2azYKUNw6xVotpg==",
+      "path": "open-xml-powertools/4.4.0",
+      "hashPath": "open-xml-powertools.4.4.0.nupkg.sha512"
+    },
+    "PDFsharp/1.50.5147": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vr5KBIqcXu2hqZ43UTwPR+jqHgMrT5tsPtJvEF+mORKoBNMh3bRWgAwic0U1sT2IVb4PR5m0GyQxnmCz8jBHWg==",
+      "path": "pdfsharp/1.50.5147",
+      "hashPath": "pdfsharp.1.50.5147.nupkg.sha512"
+    },
+    "PDFsharp-MigraDoc/1.50.5147": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YMtUVAQF281GuSrQwfs4x86S6ZaWuIYdjGoRRLZWCPG45keasqSpSGtUKIQN0zRSFT9jjvScVRfAJpfRV5L8DA==",
+      "path": "pdfsharp-migradoc/1.50.5147",
+      "hashPath": "pdfsharp-migradoc.1.50.5147.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v+XbyYHaZjDfn0ENmJEV1VYLgGgCTx1gnfOBcppowbpOAriglYgGCvFCPr2EEZyBvXlpxbEsTwkOlInl107ahA==",
+      "path": "system.drawing.common/4.7.0",
+      "hashPath": "system.drawing.common.4.7.0.nupkg.sha512"
+    },
+    "System.IO.Packaging/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9VV4KAbgRQZ79iEoG40KIeZy38O30oWwewScAST879+oki8g/Wa2HXZQgrhDDxQM4GkP1PnRJll05NMiVPbYAw==",
+      "path": "system.io.packaging/4.7.0",
+      "hashPath": "system.io.packaging.4.7.0.nupkg.sha512"
+    }
+  }
+}

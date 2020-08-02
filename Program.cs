@@ -10,6 +10,7 @@ using System.Xml;
 using System.Xml.Linq;
 using System.Xml.Schema;
 using System.Drawing.Imaging;
+using System.Drawing.Text;
 using iTextSharp;
 using iTextSharp.tool.xml;
 using iTextSharp.text.html.simpleparser;
@@ -21,14 +22,17 @@ using DocumentFormat.OpenXml.Drawing;
 using DocumentFormat.OpenXml.Vml;
 using OpenXmlPowerTools;
 using OpenXmlPowerTools.HtmlToWml;
-using OpenXmlPowerTools.HtmlToWml.CSS;
-
+using PdfSharp;
+using PdfSharp.Pdf;
+using MigraDoc;
+using MigraDoc.DocumentObjectModel; 
 namespace OPENXML
 {
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
+
             string resourceFilepath = args[0];
             string outputFilepath = args[1];
 
@@ -41,7 +45,7 @@ namespace OPENXML
                 using (WordprocessingDocument wpd = WordprocessingDocument.Open(ms, true))
                 {
                     Body body = wpd.MainDocumentPart.Document.Body;
-                    int imageCounter = 0, columnCounter, drawingCounter;
+                    int imageCounter = 0;
 
                     WmlToHtmlConverterSettings settings = new WmlToHtmlConverterSettings()
                     {
@@ -100,21 +104,29 @@ namespace OPENXML
                                        new XAttribute(NoNamespace.alt, imageInfo.AltText) : null);
                             return img;
                         }
-                    
+
                     };
 
-
+                    
                     XElement html = WmlToHtmlConverter.ConvertToHtml(wpd, settings);
                     html.Save(outputFilepath);
 
                     Console.WriteLine("Done converting DOCX to XHTML.....!");
-             
+
+
+
+                    List<HeaderPart> headerPts = wpd.MainDocumentPart.HeaderParts.ToList();
+
+                    DocumentFormat.OpenXml.Wordprocessing.SplitPageBreakAndParagraphMark pgBr = wpd.MainDocumentPart.Document.Body.Descendants<DocumentFormat.OpenXml.Wordprocessing.SplitPageBreakAndParagraphMark>().FirstOrDefault();
+
+                    Console.WriteLine(pgBr.InnerXml);
+
+
                 };
 
-                
+
             }
         }
-
 
     }
 }
